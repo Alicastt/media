@@ -1,0 +1,20 @@
+{
+    "events": {
+        "MilitaryConvoy": {
+            "chance": 25,
+            "announcement" : "A military convoy has been ambushed by a horde. Coordinates are: " 
+        },
+        "BanditsConvoy": {
+            "chance": 25,
+            "announcement" : "Some bandits got stuck in a horde and didn't get out. Coordinates are: "
+        },
+        "LoneSurvivor": {
+            "chance": 25,
+            "announcement" : "Some poor fella tried escaping a horde and failed. Coordinates are: "
+        },
+        "Medkits": {
+            "chance": 100,
+            "announcement" : "Se han dropeado unos medkits en las siguientes coordenadas: "
+        }
+    }
+}

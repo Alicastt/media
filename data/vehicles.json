@@ -1,0 +1,177 @@
+{
+    "vehicles": {
+        "MilitaryConvoy": [],
+        "BanditsConvoy": [],
+        "LoneSurvivor": [],
+        "GenericEvent": [
+            {
+                "carName": "CarTaxi2",
+                "spawnChance": 15
+            },
+            {
+                "carName": "Van",
+                "spawnChance": 14
+            },
+            {
+                "carName": "SportsCar",
+                "spawnChance": 21
+            },
+            {
+                "carName": "PickUpVanMccoy",
+                "spawnChance": 6
+            },
+            {
+                "carName": "SportsCar_ez",
+                "spawnChance": 19
+            },
+            {
+                "carName": "SUV",
+                "spawnChance": 5
+            },
+            {
+                "carName": "ModernCar_ez",
+                "spawnChance": 22
+            },
+            {
+                "carName": "Van_Transit",
+                "spawnChance": 12
+            },
+            {
+                "carName": "Van_MassGenFac",
+                "spawnChance": 13
+            },
+            {
+                "carName": "Van_LectroMax",
+                "spawnChance": 20
+            },
+            {
+                "carName": "PickUpTruckMccoy",
+                "spawnChance": 5
+            },
+            {
+                "carName": "VanSpiffo",
+                "spawnChance": 12
+            },
+            {
+                "carName": "VanRadio_3N",
+                "spawnChance": 10
+            },
+            {
+                "carName": "PickUpVanLightsPolice",
+                "spawnChance": 1
+            },
+            {
+                "carName": "ModernCar_Martin",
+                "spawnChance": 21
+            },
+            {
+                "carName": "PickUpTruck",
+                "spawnChance": 18
+            },
+            {
+                "carName": "CarLightsPolice",
+                "spawnChance": 4
+            },
+            {
+                "carName": "CarNormal",
+                "spawnChance": 7
+            },
+            {
+                "carName": "CarLights",
+                "spawnChance": 5
+            },
+            {
+                "carName": "ModernCar02",
+                "spawnChance": 1
+            },
+            {
+                "carName": "VanSeats",
+                "spawnChance": 18
+            },
+            {
+                "carName": "SmallCar02",
+                "spawnChance": 14
+            },
+            {
+                "carName": "CarStationWagon2",
+                "spawnChance": 3
+            },
+            {
+                "carName": "PickUpTruckLights",
+                "spawnChance": 10
+            },
+            {
+                "carName": "PickUpVanLights",
+                "spawnChance": 8
+            },
+            {
+                "carName": "PickUpVanLightsFire",
+                "spawnChance": 20
+            },
+            {
+                "carName": "CarStationWagon",
+                "spawnChance": 22
+            },
+            {
+                "carName": "CarTaxi",
+                "spawnChance": 1
+            },
+            {
+                "carName": "Van_KnoxDisti",
+                "spawnChance": 13
+            },
+            {
+                "carName": "StepVan",
+                "spawnChance": 9
+            },
+            {
+                "carName": "PickUpTruckLightsFire",
+                "spawnChance": 16
+            },
+            {
+                "carName": "OffRoad",
+                "spawnChance": 12
+            },
+            {
+                "carName": "VanAmbulance",
+                "spawnChance": 20
+            },
+            {
+                "carName": "SmallCar",
+                "spawnChance": 10
+            },
+            {
+                "carName": "VanSpecial",
+                "spawnChance": 13
+            },
+            {
+                "carName": "ModernCar",
+                "spawnChance": 10
+            },
+            {
+                "carName": "StepVanMail",
+                "spawnChance": 13
+            },
+            {
+                "carName": "PickUpVan",
+                "spawnChance": 22
+            },
+            {
+                "carName": "CarLuxury",
+                "spawnChance": 2
+            },
+            {
+                "carName": "StepVan_Heralds",
+                "spawnChance": 3
+            },
+            {
+                "carName": "StepVan_Scarlet",
+                "spawnChance": 14
+            },
+            {
+                "carName": "VanRadio",
+                "spawnChance": 17
+            }
+        ]
+    }
+}

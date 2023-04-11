@@ -1,0 +1,9 @@
+Sandbox_EN = {
+    Sandbox_DMM = "Dynamic Missions Mod",
+
+    Sandbox_DMM_ChanceOfEvent = "Chance of event happening",
+    Sandbox_DMM_ZombieRadius = "Radius of zombie spawning",
+    Sandbox_DMM_MinAmountZombie = "Minimum amount of zombies spawned",
+    Sandbox_DMM_MaxAmountZombie = "Max amount of zombies spawned",
+    DMM_MaxAmountSpawnedCars = "Max amount of vehicles to spawn",
+}

@@ -1,0 +1,46 @@
+{
+    "items": {
+        "MilitaryConvoy": [
+            {
+                "itemName": "Base.Pistol",
+                "chance": 23
+            },
+            {
+                "itemName": "Base.Revolver",
+                "chance": 26
+            },
+            {
+                "itemName": "Base.AssaultRifle",
+                "chance": 17
+            }
+        ],
+        "BanditsConvoy": [
+            {
+                "itemName": "Base.Pistol",
+                "chance": 19
+            },
+            {
+                "itemName": "Base.Revolver",
+                "chance": 11
+            },
+            {
+                "itemName": "Base.AssaultRifle",
+                "chance": 14
+            }
+        ],
+        "LoneSurvivor": [
+            {
+                "itemName": "Base.Pistol",
+                "chance": 18
+            },
+            {
+                "itemName": "Base.Revolver",
+                "chance": 12
+            },
+            {
+                "itemName": "Base.AssaultRifle",
+                "chance": 20
+            }
+        ]
+    }
+}
