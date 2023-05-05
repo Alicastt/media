@@ -1,50 +1,50 @@
 VERSION = 1,
 
-option DMM.ChanceOfEvent
+option EventsMod.ChanceOfEvent
 {
     type = integer,
     min = 0,
     max = 100,
     default = 12,
-    page = DMM,
-    translation = DMM_ChanceOfEvent,
+    page = EventsMod,
+    translation = EventsMod_ChanceOfEvent,
 }
 
-option DMM.ZombieRadius
+option EventsMod.ZombieRadius
 {
     type = integer,
     min = 1,
     max = 200,
     default = 10,
-    page = DMM,
-    translation = DMM_ZombieRadius,
+    page = EventsMod,
+    translation = EventsMod_ZombieRadius,
 }
 
-option DMM.MinAmountZombie
+option EventsMod.MinAmountZombie
 {
     type = integer,
     min = 10,
     max = 500,
     default = 200,
-    page = DMM,
-    translation = DMM_MinAmountZombie,
+    page = EventsMod,
+    translation = EventsMod_MinAmountZombie,
 }
-option DMM.MaxAmountZombie
+option EventsMod.MaxAmountZombie
 {
     type = integer,
     min = 10,
     max = 500,
     default = 200,
-    page = DMM,
-    translation = DMM_MaxAmountZombie,
+    page = EventsMod,
+    translation = EventsMod_MaxAmountZombie,
 }
 
-option DMM.MaxAmountSpawnedCars
+option EventsMod.MaxAmountSpawnedCars
 {
     type = integer,
     min = 1,
     max = 4,
     default = 2,
-    page = DMM,
-    translation = DMM_MaxAmountSpawnedCars,
+    page = EventsMod,
+    translation = EventsMod_MaxAmountSpawnedCars,
 }

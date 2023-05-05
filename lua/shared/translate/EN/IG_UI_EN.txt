@@ -1,5 +1,5 @@
 IGUI_EN = {
 
-    IGUI_AdminPanel_UpdateDmmJsons = "Update DMM JSONs",
-    IGUI_AdminPanel_TooltipUpdateDmmJsons = "Update the vehicles JSON containing the data for DMM",
+    IGUI_AdminPanel_UpdateEventsModJsons = "Update EventsMod JSONs",
+    IGUI_AdminPanel_TooltipUpdateEventsModJsons = "Update the vehicles JSON containing the data for EventsMod",
 }

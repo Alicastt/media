@@ -1,8 +1,31 @@
 {
     "vehicles": {
-        "MilitaryConvoy": [],
+        "MilitaryConvoy": [
+            {
+                "carName": "hmmwvht",
+                "spawnChance": 50
+            },
+            {
+                "carName": "hmmwvtr",
+                "spawnChance": 50
+            },
+            {
+                "carName": "m151canvas",
+                "spawnChance": 50
+            }
+        ],
         "BanditsConvoy": [],
         "LoneSurvivor": [],
+        "Military": [
+            {
+                "carName": "m35a2covered",
+                "spawnChance": 50
+            },
+            {
+                "carName": "m35a2bed",
+                "spawnChance": 50
+            }
+        ],
         "GenericEvent": [
             {
                 "carName": "CarTaxi2",
@@ -78,7 +101,7 @@
             },
             {
                 "carName": "CarLights",
-                "spawnChance": 5
+                "spawnChance": 10
             },
             {
                 "carName": "ModernCar02",

@@ -1,20 +1,55 @@
 {
     "events": {
         "MilitaryConvoy": {
-            "chance": 25,
-            "announcement" : "A military convoy has been ambushed by a horde. Coordinates are: " 
+            "chance": 15,
+            "announcement" : "Atencion! Hoy un convoy militar ha sido emboscado por una horda de zombies. Las coordenadas han sido: " ,
+            "hasVehicle": true,
+            "spawnCoords": "GenericEvent",
+            "weapons": 2,
+            "ammo": 7,
+            "gunMag": 3,
+            "weaponPart": 2
         },
         "BanditsConvoy": {
             "chance": 25,
-            "announcement" : "Some bandits got stuck in a horde and didn't get out. Coordinates are: "
+            "announcement" : "Noticias Diarias. Unos bandidos tuvieron un encuentro con una horda errante, no ha quedado nadie con vida. Las coordenadas han sido: ",
+            "hasVehicle": true,
+            "spawnCoords": "GenericEvent",
+            "weapons": 1,
+            "ammo": 4,
+            "gunMag": 1,
+            "weaponPart": 1
         },
         "LoneSurvivor": {
             "chance": 25,
-            "announcement" : "Some poor fella tried escaping a horde and failed. Coordinates are: "
+            "announcement" : "Noticias Diarias.Parece ser que un pobre desgraciado ha intentado combatir una horda de zombies, pero no lo ha conseguido. Las coordenadas han sido: ",
+            "hasVehicle": true,
+            "spawnCoords": "GenericEvent",
+            "weapons": 1,
+            "ammo": 4,
+            "gunMag": 2,
+            "weaponPart": 2
         },
         "Medkits": {
-            "chance": 100,
-            "announcement" : "Se han dropeado unos medkits en las siguientes coordenadas: "
+            "chance": 10,
+            "announcement" : " URGENTE URGENTE /n El doctor wilovski estaba trabajando en una cura para el virus zombie, pero hemos perdido contacto al hacer el checkeo diario, repito, hemos perdido contacto. Cualquiera que esté cerca, por favor acuda a las coordenadas: ",
+            "hasVehicle": false,
+            "spawnCoords": "Medkits",
+            "weapons": 0,
+            "ammo": 0,
+            "gunMag": 0,
+            "weaponPart": 0
+        },
+        "Military": {
+            "chance": 10,
+            "announcement" : "Ayuda! Necesitamos refuerzos, nos estan sobre pasando.... ahhhhhggg. Estan entrando todos en la base militar, no podemos contenerlos. Nuestras coordenadas son: ",
+            "hasVehicle": true,
+            "spawnCoords": "Military",
+            "weapons": 4,
+            "ammo": 12,
+            "gunMag": 4,
+            "weaponPart": 3
         }
+        
     }
 }

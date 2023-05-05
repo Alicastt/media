@@ -1,11 +1,11 @@
 
-DMM_Json = {}
+EventsMod_Json = {}
 
 
 local function ReadJson(name)
 
     local fullString = ""
-    local file =  getModFileReader('DMM', 'media/data/' .. name .. ".json", false)
+    local file =  getModFileReader('EventsMod', 'media/data/' .. name .. ".json", false)
     local line = file:readLine()
     local count = 1
     while line ~= nil do
@@ -19,9 +19,9 @@ end
 
 
 
-function DMM_Json:write(name, elements)
+function EventsMod_Json:write(name, elements)
     local encodedJson = self.handler.stringify(elements)
-    local writer = getModFileWriter('DMM', 'media/data/' .. name .. ".json", true, false)
+    local writer = getModFileWriter('EventsMod', 'media/data/' .. name .. ".json", true, false)
     writer:write(encodedJson)
     writer:close()
 
@@ -30,7 +30,7 @@ end
 
 
 
-function DMM_Json:fetch(jsonName)
+function EventsMod_Json:fetch(jsonName)
     local string = ReadJson(jsonName)
     self[jsonName] = self.handler.parse(string)[jsonName]
 
@@ -38,8 +38,8 @@ end
 
 
 
-function DMM_Json:updateVehicles()
-    print("DMM: updating vehicles json")
+function EventsMod_Json:updateVehicles()
+    print("EventsMod: updating vehicles json")
 	local vehicleList = getScriptManager():getAllVehicleScripts()
 
     local vehiclesTemp = {}
@@ -79,7 +79,7 @@ function DMM_Json:updateVehicles()
 
 end
 
-function DMM_Json:new()
+function EventsMod_Json:new()
     local o = {}
     setmetatable(o, self)
     self.__index = self

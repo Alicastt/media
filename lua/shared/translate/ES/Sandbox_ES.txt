@@ -1,7 +1,7 @@
-Sandbox_EN = {
+Sandbox_ES = {
     Sandbox_EventsMod = "Dynamic Missions Mod",
 
-    Sandbox_EventsMod_ChanceOfEvent = "Chance of event happening",
+    Sandbox_EventsMod_ChanceOfEvent = "Probabilidades de que ocurra un evento",
     Sandbox_EventsMod_ZombieRadius = "Radius of zombie spawning",
     Sandbox_EventsMod_MinAmountZombie = "Minimum amount of zombies spawned",
     Sandbox_EventsMod_MaxAmountZombie = "Max amount of zombies spawned",

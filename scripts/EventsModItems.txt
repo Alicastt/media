@@ -1,0 +1,16 @@
+module EventsMod
+{
+    item ExperimentalSyringe
+    {
+        Type         = Food,
+        DisplayName  = Inyeccion Experimental,
+        Icon         = ExperimentalSyringe,
+        Weight       = 0.1,
+        Tooltip 	 = Una jeringa que contiene un liquido extraño,
+        Medical      = TRUE,
+        DisplayCategory = FirstAid,
+		OnEat 				= OnInject_ExperimentalSyringe,
+        EatType				= popcan,
+        CustomContextMenu   = Inyect_syringe,
+    }
+}

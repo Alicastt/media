@@ -1,0 +1,5 @@
+IGUI_ES = {
+
+    IGUI_AdminPanel_UpdateEventsModJsons = "Actualizar EventsMod JSONs",
+    IGUI_AdminPanel_TooltipUpdateEventsModJsons = "Actualizar el JSOn de los vehiculos que contienen la info de EventsMod",
+}

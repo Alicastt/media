@@ -1,25 +1,25 @@
 local ClientCommands = {}
 
 ClientCommands.UpdateJsons = function(_, args)
-    --print("DMM: received update json call")
-    DMM_Core.jsonHandler:updateVehicles(_)
+    --print("EventsMod: received update json call")
+    EventsMod_Core.jsonHandler:updateVehicles(_)
 end
 
 
 ClientCommands.TriggerEvent = function(_, args)
-    DMM_Core.event = DMM_Event:new(DMM_Core.jsonHandler)
+    EventsMod_Core.event = EventsMod_Event:new(EventsMod_Core.jsonHandler)
 
-    local chosenCoordinates = DMM_Core.event:getCoordinates()
-    local baseAnnouncement = DMM_Core.event:getAnnouncement()
+    local chosenCoordinates = EventsMod_Core.event:getCoordinates()
+    local baseAnnouncement = EventsMod_Core.event:getAnnouncement()
     local announcement = baseAnnouncement .. "X = " .. chosenCoordinates.x .. ", Y = " .. chosenCoordinates.y
     print(announcement)
 
     -- Send the announcement in chat if we're on a server
     if isServer() then
         local firstPlayer = getPlayerByOnlineID(0)
-        sendServerCommand(firstPlayer, "DMM", "SendChatAlarm", {message = announcement})
+        sendServerCommand(firstPlayer, "EventsMod", "SendChatAlarm", {message = announcement})
     end
-    Events.OnTick.Add(DMM_Core.EventLoop)
+    Events.OnTick.Add(EventsMod_Core.EventLoop)
 
 end
 
@@ -27,7 +27,7 @@ end
 
 OnClientCommand = function(module, command, playerObj, args)
     print("Received client command: " .. command)
-    if module == 'DMM' and ClientCommands[command] then
+    if module == 'EventsMod' and ClientCommands[command] then
         ClientCommands[command](playerObj, args)
     end
 end
